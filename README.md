@@ -1,4 +1,4 @@
-#Awesome-books
+#calculator-with-js
 
 Create with the aim of mentioning one of the thematics of events that I like the most that is that of the video games and using all my knowledge in the first module of the program microverse to give it form and functionality. 
 
@@ -9,7 +9,7 @@ Will have future changes in the next days!
 
 <div align="center">
 
-  <h3 id="title"><b>Awesome Books</b></h3>
+  <h3 id="title"><b>calculator</b></h3>
 
 </div>
 
@@ -47,6 +47,7 @@ Will have future changes in the next days!
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
+- CSS
 - JS
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -64,14 +65,15 @@ Will have future changes in the next days!
 ### Key Features <a name="key-features"></a>
 
 1 Add HTML <br>
+2 Add CSS
 3 Add JS<br> 
-4 add linters<br>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> Checkout my Awesome book   target="_blank" rel="noopener noreferrer"> here!</a> </p>  
+Use deployment instead live demo :);
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +98,7 @@ Use these commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/stino-x/Awesome-books.git
+  git clone https://github.com/mhnazary/Calculator-with-JS.git
 ```
 --->
 
