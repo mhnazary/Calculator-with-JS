@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'popins', 'sans-serif';
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     border: 1px solid blue;
     padding: 1rem;
     border-radius: 1rem;
+    background-color: #3a4452;
 }
 
 input {
@@ -42,11 +44,13 @@ button {
     border-radius: .4rem;
     border: black;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 
 .operator {
-    color: orange;
+    color: #ff2a8d;
     padding: .5rem 1rem;
     margin: .2rem;
+    font-weight: 400;
 }
