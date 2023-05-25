@@ -1,5 +1,3 @@
-
-
 let $ = document
 let input = $.getElementById('input')
 let buttons = $.querySelectorAll("button")
@@ -21,6 +19,7 @@ const calculate = (btnValue) => {
     }
 
     input.value = output
+    localStorage.setItem('result', JSON.stringify(output)) // add result to local storage
 }
 
 buttons.forEach(function (button) {
@@ -28,3 +27,7 @@ buttons.forEach(function (button) {
         calculate(e.target.value)
     })
 })
+
+window.addEventListener('load', ()=> {
+    input.value = JSON.parse(localStorage.getItem('result'))
+});
