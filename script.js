@@ -1,3 +1,5 @@
+
+
 let $ = document
 let input = $.getElementById('input')
 let buttons = $.querySelectorAll("button")
