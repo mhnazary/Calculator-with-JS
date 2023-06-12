@@ -1,7 +1,7 @@
 let $ = document
 let input = $.getElementById('input')
 let buttons = $.querySelectorAll("button")
-const oparatorChar = ["%", "*", "/", "+", "-", "=", "sqrt", "log", "ln"]
+const oparatorChar = ["%", "*", "/", "+", "-", "=", "sqrt", "log", "ln", "square"]
 let output = ''
 
 const calculate = (btnValue) => {
