@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,24 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css">
     <title>Calculator-With-JS</title>
 </head>
+
 <body>
 
     <div class="container">
-        <input class="text-red-600" type="text"  id="input" >
+        <input class="text-red-600" type="text" id="input">
         <div class="buttons">
             <button class="operator" value="AC">AC</button>
             <button class="operator" value="DEL">DEL</button>
             <button class="operator" value="%">%</button>
             <button class="operator" value="/">/</button>
+            <button class="operator" value="√">√</button>
+            <button class="operator" value="log">log</button>
+            <button class="operator" value="ln">ln</button>
+            <button class="operator" value="square">x²</button>
+
+            <!-- <button class="operator" value="sin">sin</button>
+            <button class="operator" value="cos">cos</button>
+            <button class="operator" value="tan">tan</button> -->
 
             <button value="7">7</button>
             <button value="8">8</button>
@@ -27,20 +37,21 @@
             <button value="5">5</button>
             <button value="6">6</button>
             <button class="operator" value="+">+</button>
-            
+
             <button value="1">1</button>
             <button value="2">2</button>
             <button value="3">3</button>
             <button class="operator" value="-">-</button>
-            
+
             <button value="0">0</button>
             <button value="00">00</button>
             <button value=".">.</button>
             <button class="operator" value="=">=</button>
         </div>
     </div>
-    
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
